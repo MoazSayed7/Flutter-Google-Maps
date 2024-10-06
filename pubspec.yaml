@@ -1,0 +1,36 @@
+name: maps
+description: "A new Flutter project."
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.7.0
+  firebase_auth: ^5.3.1
+  firebase_core: ^3.6.0
+  flutter_bloc: ^8.1.6
+  flutter_polyline_points: ^2.1.0
+  flutter_screenutil: ^5.9.3
+  font_awesome_flutter: ^10.7.0
+  geolocator: ^13.0.1
+  google_maps_flutter: ^2.9.0
+  material_floating_search_bar_2: ^0.5.0
+  pin_code_fields: ^8.0.1
+  pretty_dio_logger: ^1.4.0
+  url_launcher: ^6.3.0
+  uuid: ^4.5.1
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
