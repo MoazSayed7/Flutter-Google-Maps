@@ -39,7 +39,7 @@ class PhoneAuthCubit extends Cubit<PhoneAuthState> {
 
   Future<void> submitOTP(String otpCode) async {
     PhoneAuthCredential credential = PhoneAuthProvider.credential(
-        verificationId: verificationId, smsCode: otpCode);
+        verificationId: this.verificationId, smsCode: otpCode);
 
     await signIn(credential);
   }
